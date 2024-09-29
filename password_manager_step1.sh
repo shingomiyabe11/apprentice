@@ -12,6 +12,7 @@ read username
 echo "パスワードを入力してください："
 # -s: 入力されたパスワードを表示させない
 read -s password
+
 # ユーザーの入力をpass.txtに書き込む
 echo "$service_name:$username:$password" >> pass.txt
 
