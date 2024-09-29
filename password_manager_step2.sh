@@ -20,6 +20,7 @@ while true; do
             # 入力された情報をpasswords.txtファイルに追記する
             echo "$serviceName:$userName:$password" >> passwords.txt
             echo "パスワードの追加は成功しました。"
+            # ;;各処理の終了を示す
             # ;;を忘れずに
             ;;
         # Get Passwordを入力した場合
